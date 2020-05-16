@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size:  100%;
+    color: #000000;
+    margin: 0px;
+}
+#navlinks {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 20px;
+}
+header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;  
+    padding-left:  5%; 
+    padding-right:  5%;
+}
+#navigation {
+    display: none;    
+}
